@@ -31,7 +31,7 @@ func main() {
 
 			elapsed := time.Since(start)
 
-			f, _ := os.OpenFile("results/results.csv", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+			f, _ := os.OpenFile("results/benchmark.csv", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 			defer f.Close()
 
 			fmt.Fprintf(f, "%s,%s,%s,%d\n", method, size, elapsed, len(enc))
