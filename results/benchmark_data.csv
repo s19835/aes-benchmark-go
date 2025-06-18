@@ -1,0 +1,6 @@
+standard,1KB,24.481µs,1024
+standard,1MB,1.055688ms,1048576
+standard,100MB,96.256803ms,104857600
+cryptopasta,1KB,47.019µs,1052
+cryptopasta,1MB,395.272µs,1048604
+cryptopasta,100MB,192.464014ms,104857628
